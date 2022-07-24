@@ -1,0 +1,166 @@
+:root {
+  --para-shadow: 0px 0px 18px 8px #217e25;
+}
+
+body {
+  background-image: url("/media/matrixrain.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  font-family: Andale Mono, monospace;
+}
+
+h1 {
+  display: block;
+  margin: 0 auto;
+  color: #e8fae8;
+  font-weight: thick;
+  opacity: 95%;
+  background-color: rgb(22, 22, 22);
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 650px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+.mainText {
+  margin: 0 auto;
+  font-family: Andale Mono, monospace;
+  color: #49c44c;
+  max-width: 50%;
+  text-align: center;
+  font-size: larger;
+  line-height: normal;
+}
+
+#morphS1 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: rgb(3, 3, 3);
+  box-shadow: var(--para-shadow);
+  padding: 10px;
+}
+
+#morphS2 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  border-radius: 5px;
+  background-color: rgb(3, 3, 3);
+  box-shadow: var(--para-shadow);
+  padding: 10px;
+}
+
+#morphS3 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  border-radius: 5px;
+  background-color: rgb(3, 3, 3);
+  box-shadow: var(--para-shadow);
+  padding: 10px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.rButton {
+  background-color: darkred;
+  color: white;
+  border-radius: 25px;
+  padding: 5px 25px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(99, 1, 1, 0.699);
+  box-shadow: 0px 0px 12px 5px #7c1414;
+  margin-right: 35px;
+}
+
+.bButton {
+  background-color: darkblue;
+  color: white;
+  border-radius: 25px;
+  padding: 5px 25px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(1, 1, 124);
+  box-shadow: 0px 0px 12px 5px rgba(1, 1, 160, 0.986);
+  margin-left: 35px;
+}
+
+button:hover {
+  background-color: black;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: #082b0a 0px 8px 8px 0;
+}
+
+img {
+  margin: 0 auto;
+  border-radius: 5px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-width: 3px;
+  box-shadow: 0px 0px 22px 15px rgb(0, 19, 5);
+  width: 550px;
+}
+
+.footer {
+  display: block;
+  margin: 0 auto;
+  font-size: smaller;
+  color: #217e25;
+  opacity: 95%;
+  background-color: rgb(22, 22, 22);
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
+hr {
+  color: #7aee91;
+  margin: 30px;
+}
+
+:visited {
+  color: inherit;
+}
+
+#returnHome {
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 70%;
+}
+
+@media (max-width: 580px) {
+  body {
+    padding-top: 10px;
+  }
+  h1 {
+    max-width: 70%;
+    padding: 15px;
+  }
+  .mainText {
+    margin-right: 15px;
+    margin-left: 15px;
+    max-width: 90% !important;
+    text-align: center;
+  }
+  #theImage,
+  #headerImage {
+    max-width: 90% !important;
+    margin: 0 auto;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
